@@ -74,9 +74,11 @@ hides ligand-specific effects. ULBP1 and ULBP2 tend to rise with aneuploidy (BRC
 RAET1E and RAET1G tend to fall (KIRC, LUSC, COAD, OV). In HNSC, ULBP1 is +0.27 and RAET1E is -0.24, so the
 averaged score is near zero. I did not build a new score from this pattern, because that would fit the data.
 
+![Figure S1](figures/figureS1_per_ligand.png)
+
 **Figure 2A: instability x STING1 interaction.** No cancer type passes FDR (21 types, median beta = -0.018,
-smallest q = 0.171). STING1 mRNA level does not modify the aneuploidy-ligand relationship in bulk tumors. This
-is a weak test, because bulk STING1 mRNA largely reflects immune and stromal cells, and STING silencing in
+smallest q = 0.171). These data give no evidence that STING1 mRNA level modifies the aneuploidy-ligand relationship in
+bulk tumors. This is a weak test, because bulk STING1 mRNA largely reflects immune and stromal cells, and STING silencing in
 tumor cells is epigenetic. BRCA basal-like subset: beta = -0.100 (95% CI -0.231 to 0.031).
 
 **Figure 2B: ligand-high vs ligand-low among the most unstable tumors (descriptive), purity removed first.**
