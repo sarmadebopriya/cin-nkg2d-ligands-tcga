@@ -1,0 +1,11 @@
+data/raw/
+data/cin70_genes.txt
+data_processed/
+tests/synthetic_data/
+tests/synthetic_out/
+__pycache__/
+.ipynb_checkpoints/
+
+.venv/
+venv/
+*.pyc

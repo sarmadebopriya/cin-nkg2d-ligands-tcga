@@ -1,0 +1,60 @@
+No CIN70 list at cin70_genes.txt: skipping the CIN70 robustness check. (Optional: add the Carter 2006 gene list, one symbol per line, and rerun.)
+Gene check:
+  MICA     -> MICA
+  MICB     -> MICB
+  ULBP1    -> ULBP1
+  ULBP2    -> ULBP2
+  ULBP3    -> ULBP3
+  RAET1E   -> RAET1E
+  RAET1G   -> RAET1G
+  CGAS     -> CGAS
+  STING1   -> STING1
+  TREX1    -> TREX1
+  ADAM10   -> ADAM10
+  ADAM17   -> ADAM17
+  NCR1     -> NCR1
+  KLRD1    -> KLRD1
+  PRF1     -> PRF1
+  GZMB     -> GZMB
+Expression looks linear (max > 50): applying log2(x + 1).
+Samples in expression: 11069; matched to phenotype: 9740
+After keeping primary tumors (SKCM metastatic) and one sample per patient: 9565 of 9740
+Ligand score = mean z of: ['MICA', 'MICB', 'ULBP1', 'ULBP2', 'ULBP3', 'RAET1E', 'RAET1G']
+
+Tumors per cancer type (analysed = at least MIN_N complete cases):
+                n  n_purity  n_aneuploidy  n_complete  analysed
+cancer_type                                                    
+ACC            76        76            76          76     False
+BLCA          397       397           397         397      True
+BRCA         1039      1021          1039        1021      True
+CESC          291       291           291         291      True
+CHOL           36        36            36          36     False
+COAD          430       391           430         391      True
+DLBC           47        47            47          47     False
+ESCA          161       161           161         161      True
+GBM           145       144           145         144     False
+HNSC          502       485           502         485      True
+KICH           65        61            65          61     False
+KIRC          481       328           481         328      True
+KIRP          280       270           280         270      True
+LGG           507       500           507         500      True
+LIHC          355       354           355         354      True
+LUAD          497       489           497         489      True
+LUSC          479       465           479         465      True
+MESO           81        81            81          81     False
+OV            288       201           288         201      True
+PAAD          158       158           158         158      True
+PCPG          160       160           160         160      True
+PRAD          471       469           471         469      True
+READ          154       138           154         138     False
+SARC          242       242           242         242      True
+SKCM          458       458           458         458      True
+STAD          401       397           401         397      True
+TGCT          149       149           149         149     False
+THCA          462       447           462         447      True
+THYM          103       103           103         103     False
+UCEC          514       491           514         491      True
+UCS            56        56            56          56     False
+UVM            80        80            80          80     False
+
+Types analysed: 21 of 32 (MIN_N = 150)

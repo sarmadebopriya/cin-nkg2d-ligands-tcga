@@ -1,0 +1,12 @@
+analysis,variant,n_types,median_estimate,n_positive,n_fdr_sig,n_fdr_sig_positive,same_sign_as_primary,n_compared
+fig1 partial rho,primary: aneuploidy,21.0,-0.012396889596888928,10.0,5.0,4.0,,
+fig2A interaction,primary: aneuploidy,21.0,-0.018243159905441377,7.0,0.0,0.0,,
+fig1 partial rho,fga,21.0,0.04290024453948726,15.0,6.0,5.0,14.0,21.0
+fig2A interaction,fga,21.0,-0.02804172438882935,7.0,0.0,0.0,,
+fig1 partial rho,cin70: column unavailable,,,,,,,
+"fig2B split, STING1 effect",top third (primary),21.0,0.1580594679186229,14.0,27.0,26.0,,
+"fig2B split, STING1 effect",top quarter,21.0,0.21050248981439568,14.0,19.0,19.0,,
+fig1 partial rho,excluding MSI-high (MANTIS > 0.4; 403 tumors),21.0,-0.011903137283859666,9.0,5.0,5.0,18.0,21.0
+fig2A interaction,excluding MSI-high (MANTIS > 0.4; 403 tumors),21.0,-0.00863093475536159,9.0,1.0,0.0,,
+fig1 partial rho,purity-high only (n >= 75),22.0,-0.026058302890414498,9.0,6.0,3.0,19.0,21.0
+fig2A interaction,purity-high only (n >= 75),22.0,-0.028583792451149524,8.0,0.0,0.0,,
